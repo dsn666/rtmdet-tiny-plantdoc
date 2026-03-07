@@ -5,8 +5,6 @@ from .brick_wrappers import (AdaptiveAvgPool2d, FrozenBatchNorm2d,
                              adaptive_avg_pool2d)
 from .conv_upsample import ConvUpsample
 from .csp_layer import CSPLayer
-from .csp_layer_mhrsa import CSPLayerMHRSA  # add
-from .csp_layer_bra import CSPLayerBRA  # add
 from .dropblock import DropBlock
 from .ema import ExpMomentumEMA
 from .inverted_residual import InvertedResidual
@@ -48,8 +46,8 @@ __all__ = [
     'MSDeformAttnPixelDecoder', 'ResLayer', 'PatchMerging',
     'SinePositionalEncoding', 'LearnedPositionalEncoding', 'DynamicConv',
     'SimplifiedBasicBlock', 'NormedLinear', 'NormedConv2d', 'InvertedResidual',
-    'SELayer', 'ConvUpsample', 'CSPLayer', 'CSPLayerMHRSA', 'CSPLayerBRA',
-    'adaptive_avg_pool2d',
+    'SELayer', 'ConvUpsample', 'CSPLayer', 
+    'adaptive_avg_pool2d', 
     'AdaptiveAvgPool2d', 'PatchEmbed', 'nchw_to_nlc', 'nlc_to_nchw', 'DyReLU',
     'ExpMomentumEMA', 'inverse_sigmoid', 'ChannelAttention', 'SiLU', 'MLP',
     'DetrTransformerEncoderLayer', 'DetrTransformerDecoderLayer',
