@@ -1,6 +1,3 @@
-# rtmdet-tiny-plantdoc
-model:rtmdet-tiny, mmdetection based, plantdox datasets.
-
  All experiments of this model, including comparative experiments and ablation experiments, were conducted based on the mmdetection 3.3.0 framework. 。
 
  This document provides the running files and results of all models. 
@@ -16,7 +13,6 @@ model:rtmdet-tiny, mmdetection based, plantdox datasets.
 | run-atss-5x.ipynb                     | atss         | 60    |                                                            |
 | run-autoassign-4x.ipynb               | autoassign   | 48    |                                                            |
 | run-centernet-4x.ipynb                | centernet    | 48    |                                                            |
-| run-diffusiondet-4x.ipynb             | diffusiondet | 48    |                                                            |
 | run-faster-rcnn-4x.ipynb              | faster-rcnn  | 48    |                                                            |
 | run-fcos-4x.ipynb                     | fcos         | 48    |                                                            |
 | run-vfnet-4x.ipynb                    | VarifocalNET | 48    |                                                            |
